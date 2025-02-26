@@ -3,7 +3,7 @@ import { IToken } from "@/interface";
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://164.92.188.250/api/v1/",
+  baseURL: "https://happiness.makhliyo.ikramovna.me/api/v1/",
   headers: {
     "Content-Type": "application/json",
   },
